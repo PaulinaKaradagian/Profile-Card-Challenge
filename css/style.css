@@ -1,0 +1,104 @@
+body{
+  margin: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+  justify-content: center;
+}
+
+.pattern-top{
+  position: absolute;
+  bottom: 35%;
+  right: 53%;
+}
+
+.pattern-bottom{
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  z-index: -1;
+}
+
+.card-wrapper{
+  display: grid;
+  grid-template-columns: 350px;
+  grid-template-rows: auto;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow: 0 1px 10px 1px hsl(227, 10%, 46%);
+}
+
+/* Profile-card section */
+.pattern-card{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.profile-pic{
+  border-radius: 100%;
+  position: relative;
+  border: 5px solid white;
+  margin-top: -15%;
+}
+
+span{
+  display: inline-block;
+}
+
+.nombre{
+  margin: 15px 0 0;
+}
+
+.edad{
+  font-weight: 400;
+  margin: 15px 0 0 5px;
+}
+
+.pais{
+  font-size: 15px;
+}
+
+.tipo{
+  letter-spacing: 2px;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.edad, .pais, .tipo{
+  color: hsl(227, 10%, 46%);
+}
+
+.nombre, .valor{
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.valor, .tipo{
+  margin: 0;
+}
+
+.card-stat{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-top: 1px solid #e7e7e7;
+  padding: 7% 4%;
+  line-height: 1.5;
+}
+
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 25%;
+    height: 2.5rem;            /* Footer height */
+    text-align: center;
+  }
